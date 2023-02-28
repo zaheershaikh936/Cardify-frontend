@@ -1,12 +1,14 @@
 import React from 'react';
 import './assets/css/style.css';
 
+// !core import
+import Header from './core/header/Header'
+// !component import 
+
 const App = () => {
   return (
     <>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <Header />
     </>
   );
 }
