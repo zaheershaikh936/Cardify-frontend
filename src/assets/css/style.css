@@ -1,7 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .active-border {
     width: 15%;
     border-bottom: 5px solid #3c8f69;
+    color: #3c8f69;
+}
+
+.inline-block{
+    white-space: nowrap;
 }
