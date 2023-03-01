@@ -1,3 +1,3 @@
 import logo from './logo.png'
-
-export { logo }
+import slider from './slider-pic1.webp'
+export { logo, slider }
