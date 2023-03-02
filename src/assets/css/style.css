@@ -11,3 +11,7 @@
 .inline-block{
     white-space: nowrap;
 }
+
+.float-right{
+    float: right;
+}
