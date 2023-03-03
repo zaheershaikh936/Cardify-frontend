@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.primart-color{
+    color:#0da122;
+}
+
 .active-border {
     width: 15%;
     border-bottom: 5px solid #3c8f69;
@@ -14,4 +18,31 @@
 
 .float-right{
     float: right;
+}
+
+.center-icon{
+    display: block;
+    text-align: -webkit-center;
+}
+
+#show:hover .hide {
+    display: flex;
+    transition: transform 5000ms;
+    transform: translateY(-10px);
+}
+
+.hide {
+  display: none;
+}
+
+.margin-top-card{
+    margin-top: -28%;
+}
+
+.coloum-heading {
+    color: #3d38ff;
+    padding: 4px 20px;
+    background-color: #f2f3fe;
+    border-radius: 13px;
+    display: inline-block;
 }
