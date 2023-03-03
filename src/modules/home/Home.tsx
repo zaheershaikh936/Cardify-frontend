@@ -6,7 +6,7 @@ import PremierProduct from './PremierProduct';
 import Vendor from './Vendor';
 import Creators from './Creators';
 import FreeProduct from './FreeProduct';
-
+import Testimonial from '../testimonial/Testimonial'
 const Home = () => {
     return (
         <>
@@ -15,6 +15,7 @@ const Home = () => {
             <Vendor />
             <Creators />
             <FreeProduct />
+            <Testimonial />            
         </>
     )
 }
