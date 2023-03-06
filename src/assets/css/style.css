@@ -49,3 +49,13 @@
 .testimonial-background {
     background-color: #333333;
 }
+ul.list_custom li:after {
+    content: "";
+    width: 70px;
+    height: 1px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, .08);
+    position: absolute;
+    left: 0;
+    bottom: -11px;
+}

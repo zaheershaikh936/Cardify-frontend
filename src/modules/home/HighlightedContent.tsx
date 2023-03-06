@@ -15,7 +15,7 @@ const HighlightedContent = () => {
                         <div className='px-20 py-20'>
                             <p className='text-6xl font-bold leading-normal text-slate-800'> It’s time <br />
                                 to
-                                <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500 relative inline-block"> <span className="relative text-white"> bring </span> </span> your ideas alive
+                                <span className="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-green-500 relative inline-block"> <span className="relative text-white"> bring </span> </span> your ideas alive
                             </p>
                             <p className='mt-8 text-slate-400'>
                                 Voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia.
