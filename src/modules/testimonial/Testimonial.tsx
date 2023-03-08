@@ -12,9 +12,6 @@ const Testimonial = () => {
                     <Title title={'TESTIMONIAL'} description={'Our user testimonial'} />
                     <div className='grid grid-cols-4 gap-4'>
                         <TestimonialCard />
-                        <TestimonialCard />
-                        <TestimonialCard />
-                        <TestimonialCard />
                     </div>
                 </div>
             </div>
