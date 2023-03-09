@@ -1,7 +1,7 @@
 import React from 'react';
-
+import gsap from 'gsap'
 // !image import 
-import { slider } from '../../assets/images/index'
+import { slider, animate_1, animate_2, animate_3 } from '../../assets/images/index';
 
 // !component import
 import SocialLink from './SocialLink';
@@ -26,7 +26,11 @@ const HighlightedContent = () => {
                         </div>
                     </div>
                     <div>
-                        <img src={slider} alt="HighlightedContent" className='px-10 py-10 ml-16' />
+                        <div>
+                            <img src={animate_2} alt={animate_2} className='slide-br ml-16 animated-2' />
+                            <img src={slider} alt="HighlightedContent" className='px-10 py-10 ml-16' />
+                            <img src={animate_1} alt={animate_1} className='animated ml-16' />
+                        </div>
                         <SocialLink />
                     </div>
                 </div>
