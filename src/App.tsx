@@ -6,13 +6,12 @@ import Header from './core/header/Header';
 import Footer from './core/footer/Footer';
 
 // !component import 
-import Home from './modules/home/Home'
+// import Home from './modules/home/Home'
 const App = () => {
   return (
     <>
       <Header />
-      <Home />
-      <Footer/>
+      {/* <Footer /> */}
     </>
   );
 }
