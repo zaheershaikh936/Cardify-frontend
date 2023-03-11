@@ -11,7 +11,7 @@ const Header = () => {
             <header>
                 <TopHeader />
                 <MiddleMenu />
-                {/* <MainMenu /> */}
+                <MainMenu />
             </header>
         </>
     );

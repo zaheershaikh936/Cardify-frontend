@@ -8,10 +8,10 @@ type title = {
 const Title = (props: title) => {
     return (
         <>
-            <center>
+            <div className='mt-2 mb-2'>
                 <h6 className='coloum-heading text-center primart-color font-semibold'> {props.title} </h6>
-                <p className='mt-2 mb-6 text-3xl font-bold'> {props.description} </p>
-            </center>
+                <p className='mt-2 mb-8 text-3xl font-bold'> {props.description} </p>
+            </div>
         </>
     );
 }

@@ -3,7 +3,7 @@ import React from 'react';
 const SocialLink = () => {
     return (
         <>
-            <div className='float-right mt-24 flex gap-4 mb-6 '>
+            <div className='flex justify-center space-x-4 mt-4 mb-4 sm:float-right sm:flex sm:gap-4 sm:mb-6 '>
                 {/* facebook */}
                 <svg className="h-5 w-5 text-black hover:text-[#3d38ff]" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" /></svg>
 

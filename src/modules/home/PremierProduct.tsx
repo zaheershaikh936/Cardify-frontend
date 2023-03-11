@@ -10,7 +10,7 @@ const PremierProduct = () => {
         <>
             <div className='border-t-2 border-black'>
                 <div className='container mx-auto mt-8'>
-                    <Title title='PREMIER PRODUCT' description='Three packages. Endless possibilities.' />
+
                     <div className='grid grid-cols-4 gap-4'>
                         <CommonCard />
                         <CommonCard />

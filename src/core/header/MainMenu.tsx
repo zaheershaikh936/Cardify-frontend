@@ -3,7 +3,7 @@ import React from 'react';
 const MainMenu = () => {
     return (
         <>
-            <nav className='px-8 py-2  text-sm'>
+            <nav className='hidden sm:visible px-8 py-2  text-sm'>
                 <ul className='flex space-x-8'>
                     <li>Bussiness Cards</li>
                     <li>Postcards & Print Advertising</li>
