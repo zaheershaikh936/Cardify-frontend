@@ -9,15 +9,18 @@ import PremierProduct from './PremierProduct';
 import Vendor from './Vendor';
 import Creators from './Creators';
 import FreeProduct from './FreeProduct';
+import CustomDesign from "./CustomDesign";
 const Home = () => {
     return (
         <>
             <HighlightedContent />
+            <hr />
             <Category />
-            {/* <PremierProduct /> */}
-            {/* <Vendor />*/}
-            {/* <Creators />*/}
-            {/* <FreeProduct /> */}
+            <PremierProduct />
+            <Vendor />
+            <Creators />
+            <FreeProduct />
+            <CustomDesign />
             <Testimonial />
         </>
     )

@@ -69,7 +69,8 @@ ul.list_custom li:after {
 }
 
 
-.category_hover:hover, p:hover{
+.category_hover:hover,
+.category_name:hover {
     color: #1E293B;
     text-decoration-line: underline;
 }

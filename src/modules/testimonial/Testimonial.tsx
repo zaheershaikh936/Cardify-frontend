@@ -36,9 +36,11 @@ const Testimonial = () => {
 
     return (
         <>
-            <div className='mt-8 border-t-2 border-black'>
-                <div className='container mx-auto mt-8'>
-                    <Title title={'TESTIMONIAL'} description={'Our user testimonial'} />
+            <div>
+                <div className='sm:container sm:mx-auto sm:mt-8'>
+                    <div className='py-8 px-8'>
+                        <Title title={'TESTIMONIAL'} description={'Our user testimonial'} />
+                    </div>
                     {testimoialData.map(({ id, img, name, contain }) => {
                         return (
                             <>

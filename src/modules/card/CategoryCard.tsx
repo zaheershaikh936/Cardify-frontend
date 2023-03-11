@@ -11,7 +11,7 @@ const CategoryCard = (props: categoryCardType) => {
                 <div className='rounded-xl bg-gray-200 hover:shadow-lg'>
                     <img className='rounded-xl' src={props.img} alt={props.name} />
                 </div>
-                <p className='mt-2 text-center text-xl'>{props.name}</p>
+                <p className='category_name mt-2 text-center text-lg sm:text-xl'>{props.name}</p>
             </div>
         </>
     );

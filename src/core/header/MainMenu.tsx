@@ -3,9 +3,9 @@ import React from 'react';
 const MainMenu = () => {
     return (
         <>
-            <nav className='hidden sm:visible px-8 py-2  text-sm'>
+            <nav className='hidden sm:list-item px-8 py-2  text-sm'>
                 <ul className='flex space-x-8'>
-                    <li>Bussiness Cards</li>
+                    <li>Business Cards</li>
                     <li>Postcards & Print Advertising</li>
                     <li>Signs, Banners & Posters</li>
                     <li>Labels, Stickers & Packaging</li>
