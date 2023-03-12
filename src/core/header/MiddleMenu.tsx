@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import { Link } from 'react-router-dom' 
 // !images
 import { logo } from '../../assets/images/index';
 
@@ -12,7 +12,9 @@ const MiddleMenu = () => {
                 {/* desktop */}
                 <div className="hidden md:visible sm:grid sm:grid-cols-6 gap-4">
                     <div className='mt-2'>
-                        <img className='w-ful' src={logo} alt="logo" loading='lazy' />
+                        <Link to={'/'} >
+                            <img className='w-ful' src={logo} alt="logo" loading='lazy' />
+                        </Link>
                     </div>
                     <div className='col-span-3'>
                         <input type="search" className='rounded-full w-full border-2 h-11' placeholder='      Search....' />

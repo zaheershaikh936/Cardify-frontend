@@ -1,7 +1,7 @@
 import React from 'react';
 
 type title = {
-    title: string
+    title: string | undefined
     description: string
 }
 

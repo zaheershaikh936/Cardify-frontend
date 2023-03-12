@@ -1,7 +1,7 @@
 import React from 'react';
 
 // !other import
-import CategoryCard from '../card/CategoryCard';
+import CategoryCard from '../card/CommonCard';
 import Title from './Title';
 
 // Images import
