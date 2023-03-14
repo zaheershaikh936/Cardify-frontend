@@ -6,8 +6,10 @@ import LeftMenu from './LeftMenu';
 const CustomDesign = () => {
     return (
         <>
-            <div className='w-full h-full'>
-                <LeftMenu />
+            <div>
+                <div className='[float:left] min-w-[5%] max-w-auto  w-auto'>
+                    <LeftMenu />
+                </div>
             </div>
         </>
     )

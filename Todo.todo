@@ -15,13 +15,13 @@ option {
     Text = { font size, line height, spacing, opacity }
     any: border { size, color }
     any: shadow
-    shapes={ prebuild, custom }
+    shapes={ prebuilt, custom }
     opacity
-    Aligement
+    Alignment
     copy
     delete
     background color
-    resizeing
-    export jped pdf =  { svg, png , gif(beta) }
+    resizing
+    export jpeg pdf =  { svg, png , gif(beta) }
 }
 
