@@ -10,7 +10,9 @@ import Footer from './common/core/footer/Footer';
 import Home from './modules/Home';
 import CategoryPage from './components/categorypage/CategoryPage';
 import SubCategory from './components/subcategory/SubCategory';
-import Design from './modules/Design'
+import Design from './modules/Design';
+import Login from './components/auth/Login';
+
 
 
 const App = () => {
@@ -22,6 +24,7 @@ const App = () => {
         <Route path='/category/:cat_name' element={<CategoryPage />} />
         <Route path='/subcategory/:sub_cat_name' element={<SubCategory />} />
         <Route path='/design' element={<Design />} />
+        <Route path='/auth/login' element={<Login />} />
       </Routes>
       <Footer />
     </>

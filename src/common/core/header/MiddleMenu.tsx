@@ -33,7 +33,9 @@ const MiddleMenu = () => {
                             </div>
                             <div className='overflow-auto flex space-x-2 hover:underline'>
                                 <svg className="h-4 w-4 mt-1 text-black" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <circle cx="12" cy="7" r="4" />  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
-                                <p> Sing in </p>
+                                <Link to='/auth/login'>
+                                    <p> Sing in </p>
+                                </Link>
                             </div>
                             <div className='overflow-auto flex space-x-2 hover:underline'>
                                 <svg className="h-4 w-4 mt-1 text-black" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">  <circle cx="9" cy="21" r="1" />  <circle cx="20" cy="21" r="1" />  <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" /></svg>
