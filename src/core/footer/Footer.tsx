@@ -13,13 +13,13 @@ import BottomFooter from './BottomFooter'
 const Footer = () => {
     return (
         <>
-            <div className='mt-8 [background-color:#151515] text-white'>
+            <div className='mt-8 bg-black text-white'>
                 <div className='py-8 px-8 sm:container sm:mx-auto grid grid-cols-1 sm:grid-cols-4 justify-items-center sm:gap-10 mt-6'>
                     <ContactForm />
                     <QuickLinks />
                     <SocialLink />
                 </div>
-                    <BottomFooter />
+                <BottomFooter />
             </div>
         </>
     );

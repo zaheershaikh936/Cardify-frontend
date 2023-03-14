@@ -13,7 +13,7 @@ const ContactForm = () => {
                         Your Message
                     </textarea>
                     <center>
-                        <button type='button' className='text-white w-60 mt-1 h-10 border border-white rounded hover:text-white hover:bg-[#6AC760]'> Submit </button>
+                        <button type='button' className='text-white w-60 mt-1 h-10 border border-white rounded hover:text-black hover:bg-white'> Submit </button>
                     </center>
                 </form>
             </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 // !image import 
-import { slider} from '../../assets/images/index';
+import { slider } from '../../assets/images/index';
 
 // !component import
 import SocialLink from './SocialLink';
@@ -12,10 +12,8 @@ const HighlightedContent = () => {
             <div className='container mx-auto mt-8'>
                 <div className="grid grid-cols-1 sm:grid sm:grid-cols-2 gap-2">
                     <div>
-                        <div className='px-8 sm:px-40 sm:py-40'>
-                            <p className='text-2xl sm:text-6xl font-bold leading-normal text-slate-800'> Branding that <br />
-                                <span className="mt-2 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-green-500 relative inline-block"> <span className="relative text-white"> inspires </span> </span>
-                            </p>
+                        <div className='px-8 sm:px-38 sm:py-40'>
+                            <p className='text-2xl sm:text-6xl font-bold leading-normal text-slate-800'> Branding that <br /><span className="mt-2 before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-green-500 relative inline-block"> <span className="relative text-white"> inspires </span> </span></p>
                             <p className='mt-8 text-slate-400'>
                                 Bring your brand to life through your logo and all your marketing just like the family business behind the restaurant, Monarch.
                             </p>
