@@ -1,8 +1,8 @@
 import React from 'react';
 
 // !other import
-import CategoryCard from '../card/CommonCard';
-import Title from './Title';
+import CategoryCard from '../../common/components/card/CommonCard';
+import Title from '../../common/components/title/Title';
 
 // Images import
 import { sprate } from '../../assets/images/index';
@@ -11,7 +11,7 @@ const Creators = () => {
     return (
         <>
             <div className='px-8 sm:px-20 mt-6'>
-            <img className='mt-6 mb-2' src={sprate} alt='slider' />
+                <img className='mt-6 mb-2' src={sprate} alt='slider' />
                 <Title title='TOP CREATORS' description='Three packages. Endless possibilities.' />
                 {/* only 6 products */}
                 <div className='grid grid-cols-2 md:grid md:grid-cols-6 gap-6'>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 // image import
-import { mastercard, visa, paypal } from '../../assets/images/index';
+import { mastercard, visa, paypal } from '../../../assets/images/index';
 const BottomFooter = () => {
     return (
         <>

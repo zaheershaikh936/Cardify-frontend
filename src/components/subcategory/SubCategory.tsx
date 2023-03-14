@@ -4,8 +4,8 @@ import { useParams } from 'react-router-dom';
 
 // ! other import 
 import SortCard from './SortCard';
-import Title from "../home/Title";
-import ProductCard from '../card/CommonCard'
+import Title from "../../common/components/title/Title";
+import ProductCard from '../../common/components/card/CommonCard'
 
 const SubCategory = () => {
     const { sub_cat_name } = useParams();

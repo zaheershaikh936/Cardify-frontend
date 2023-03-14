@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom'
 
 
 // ! other import
-import Title from "../home/Title";
-import SubCategoryCard from '../card/CommonCard'
+import Title from "../common/components/title/Title";
+import SubCategoryCard from '../common/components/card/CommonCard'
 
 type SubCategory = {
     category: string | undefined
 }
 
-const SubCategory = (props: SubCategory) => {
+const Category = (props: SubCategory) => {
     return (
         <>
             <div className="sm:px-20 sm:py-20">
@@ -38,4 +38,4 @@ const SubCategory = (props: SubCategory) => {
     )
 }
 
-export default SubCategory; 
+export default Category; 

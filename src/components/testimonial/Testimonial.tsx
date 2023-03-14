@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // !other import
-import Title from '../home/Title';
+import Title from '../../common/components/title/Title';
 import TestimonialCard from './TestimonialCard';
 
 // dummy data

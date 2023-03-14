@@ -1,7 +1,7 @@
 import React from 'react';
 
 // !image import
-import { customize } from '../../assets/images/index';
+import { customize } from '../../../assets/images/index';
 
 // Other import
 import ContactForm from './ContactForm';

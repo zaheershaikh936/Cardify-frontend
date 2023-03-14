@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom' 
+import { Link } from 'react-router-dom'
 // !images
-import { logo } from '../../assets/images/index';
+import { logo } from '../../../assets/images/index';
 
 const MiddleMenu = () => {
     const [showMenu, setShowMenuValue] = useState(false)
@@ -27,7 +27,9 @@ const MiddleMenu = () => {
                             </div>
                             <div className='overflow-auto flex space-x-2 hover:underline'>
                                 <svg className="h-4 w-4 mt-1 text-black" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <path d="M16 5v4a1 1 0 0 0 1 1h4" />  <path d="M3 7v10a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2v-7l-5 -5h-11a2 2 0 0 0 -2 2z" /></svg>
-                                <p> My Project </p>
+                                <Link to='/design'>
+                                    <p> Create a design </p>
+                                </Link>
                             </div>
                             <div className='overflow-auto flex space-x-2 hover:underline'>
                                 <svg className="h-4 w-4 mt-1 text-black" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <circle cx="12" cy="7" r="4" />  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>

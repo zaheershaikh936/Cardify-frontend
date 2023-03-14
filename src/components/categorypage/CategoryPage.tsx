@@ -1,8 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 //! other import
-import Carousel from './Carousel';
-import SubCategory from './SubCategory';
+import Carousel from '../../components/categorypage/Carousel';
+import SubCategory from '../../modules/Category';
 
 
 const CategoryPage = () => {

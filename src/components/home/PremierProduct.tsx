@@ -1,18 +1,17 @@
 import React from 'react';
 
 // !other import
-import CategoryCard from '../card/CommonCard';
-import Title from './Title';
+import CategoryCard from '../../common/components/card/CommonCard';
+import Title from '../../common/components/title/Title';
 
 // Images import
-import { sprate } from '../../assets/images/index';
-
-const Vendor = () => {
+import { sprate } from '../../assets/images/index'
+const PremierProduct = () => {
     return (
         <>
             <div className='px-8 sm:px-20 mt-6'>
-            <img className='mt-6 mb-2' src={sprate} alt='slider' />
-                <Title title='TOP VENDORS' description='Three packages. Endless possibilities.' />
+                <img className='mt-6 mb-2' src={sprate} alt='slider' />
+                <Title title='PREMIER PRODUCT' description='Three packages. Endless possibilities.' />
                 {/* only 6 products */}
                 <div className='grid grid-cols-2 md:grid md:grid-cols-6 gap-6'>
                     <CategoryCard img='https://cms.cloudinary.vpsvc.com/images/c_scale,dpr_auto,f_auto,fl_progressive,w_450/legacy_dam/en-us/S001568444/MXP13105-Solution-1-ProductTile-RCBC-001?cb=c50c6063520adddb52b05209ec0b810d23c50f41' name='Business Card' />
@@ -27,4 +26,4 @@ const Vendor = () => {
     )
 }
 
-export default Vendor
+export default PremierProduct

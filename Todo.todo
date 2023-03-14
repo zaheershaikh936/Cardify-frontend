@@ -9,14 +9,19 @@ Single product Page
 
 ! customize
 ( jpg, svg, png )
-option 
-border ( size and color )
-shadow
-opacity
-Aligement
-copy
-delete
-background color
-resizeing
-Text ( font size, line height, spacing, opacity )
-export jped pdf ( svg, png , gif ) 
+option {
+    menu = { create new , Edit , import template }
+    importing = { png , jpg, svg }
+    Text = { font size, line height, spacing, opacity }
+    any: border { size, color }
+    any: shadow
+    shapes={ prebuild, custom }
+    opacity
+    Aligement
+    copy
+    delete
+    background color
+    resizeing
+    export jped pdf =  { svg, png , gif(beta) }
+}
+

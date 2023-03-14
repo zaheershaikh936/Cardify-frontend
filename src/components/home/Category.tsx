@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 // !other import
-import CategoryCard from '../card/CommonCard';
-import Title from './Title';
+import CategoryCard from '../../common/components/card/CommonCard';
+import Title from '../../common/components/title/Title';
 
 const Category = () => {
     return (
