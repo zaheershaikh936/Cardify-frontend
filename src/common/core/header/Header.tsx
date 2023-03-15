@@ -9,6 +9,7 @@ const Header = () => {
     return (
         <>
             <header>
+                {/* className='bg-white sticky top-0' */}
                 <TopHeader />
                 <MiddleMenu />
                 <MainMenu />
