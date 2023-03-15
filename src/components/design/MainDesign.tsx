@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const MainDesign = () => {
-    const [fullScreen, setFullScreen] = useState(true);
+    const [fullScreen, setFullScreen] = useState(false);
     return (
         <>
             <div className='border-b-2 py-3 px-5 bg-white'>
