@@ -5,7 +5,7 @@ import { slider } from '../../assets/images/index';
 
 // !component import
 import SocialLink from './SocialLink';
-import { Button } from '@button/Button'
+import Button from '../../common/components/button/Button'
 
 const HighlightedContent = () => {
     return (

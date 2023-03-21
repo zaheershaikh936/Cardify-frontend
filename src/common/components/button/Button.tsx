@@ -1,12 +1,5 @@
-import React from 'react';
-
-enum variant {
-    common
-}
-type IButton = {
-    variant: variant
-}
-const Button = (props: IButton) => {
+import React from 'react'
+const Button = (props: any) => {
     return (
         <>
             <button className={props.variant}>
@@ -16,4 +9,4 @@ const Button = (props: IButton) => {
     )
 }
 
-export { Button, variant }
+export default Button 
