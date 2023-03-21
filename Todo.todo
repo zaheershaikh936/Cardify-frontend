@@ -25,3 +25,7 @@ option {
     export jpeg pdf =  { svg, png , gif(beta) }
 }
 
+
+!TODO
+add import shortcut  like @models/so...!on
+

@@ -5,6 +5,7 @@ import { slider } from '../../assets/images/index';
 
 // !component import
 import SocialLink from './SocialLink';
+import { Button } from '@button/Button'
 
 const HighlightedContent = () => {
     return (
@@ -18,10 +19,7 @@ const HighlightedContent = () => {
                                 Bring your brand to life through your logo and all your marketing just like the family business behind the restaurant, Monarch.
                             </p>
                             <div className='flex space-x-4'>
-                                <button className='mt-8 bg-slate-800 w-48 text-white h-14 rounded-full hover:text-slate-800 hover:bg-white hover:border-2 border-slate-800'>
-                                    <p className='font-bold'>Contact with us</p>
-                                </button>
-
+                                <Button variant={2} />
                                 <button className='mt-8 bg-slate-800 w-48 text-white h-14 rounded-full hover:text-slate-800 hover:bg-white hover:border-2 border-slate-800'>
                                     <p className='font-bold'>Contact with us</p>
                                 </button>
